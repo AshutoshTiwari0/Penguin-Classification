@@ -54,12 +54,12 @@ st.subheader('user input features')
 st.write(df)
 
 
+working_dir=os.path.dirname(os.path.abspath(__file__))
 try:
-    with open('penguin\\penguins_clf.pkl', 'rb') as file:
+    with open(os.path.join(working_dir, 'penguins_clf.pkl'), 'rb') as file:
         load_clf = pickle.load(file)
 except FileNotFoundError:
     st.error("Model file 'penguins_clf.pkl' not found. Please ensure the file is in the correct directory.")
-
 
 prediction=load_clf.predict(df)
 prediction_proba=load_clf.predict_proba(df)
