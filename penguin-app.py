@@ -55,7 +55,7 @@ st.write(df)
 
 
 try:
-    with open('C:\\Users\\Dell\\Desktop\\Data Science\\StreamLit tutorial\\Tutorial\\Streamlit again\\Second\\penguin\\penguins_clf.pkl', 'rb') as file:
+    with open('C:\Users\Dell\Desktop\Data Science\StreamLit tutorial\Tutorial\Streamlit again\Second\penguin\penguins_clf.pkl', 'rb') as file:
         load_clf = pickle.load(file)
 except FileNotFoundError:
     st.error("Model file 'penguins_clf.pkl' not found. Please ensure the file is in the correct directory.")
