@@ -39,29 +39,16 @@ Flipper length (mm)
 Body mass (g)
 Once the user submits the input, the app predicts the species of the penguin.
 
-Deployment
-You can deploy the app to cloud platforms like Heroku. Here are the steps:
-
-Create a Heroku account and install the Heroku CLI.
-
-Log in to Heroku:
-
-
-heroku login
-Initialize a Git repository (if you haven't already):
+Deployment on Streamlit Cloud
+Go to Streamlit Cloud.
+Create an account or log in to your existing account.
+Click on "New App" to create a new Streamlit app.
+Link your GitHub repository where the app is stored.
+Select the repository branch and file path for penguin-app.py.
+Click on "Deploy".
+Once deployed, the app will be available on a URL provided by Streamlit Cloud.
 
 
-git init
-heroku create
-git add .
-git commit -m "Initial commit"
-Push the app to Heroku:
-
-git push heroku master
-Open the app in the browser:
-
-
-heroku open
 Dependencies
 Streamlit: For the web application interface.
 Scikit-learn: For the machine learning model.
