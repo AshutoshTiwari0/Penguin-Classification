@@ -1,6 +1,10 @@
 Penguin Classification App
 This application classifies penguins based on various attributes such as size, weight, and species. The model was trained using the penguins_cleaned.csv dataset and deployed as a web app using Streamlit.
 
+App Preview
+![image](https://github.com/user-attachments/assets/f64cd2eb-d42d-4e38-ac4a-01bf0cada9cf)
+
+
 Project Files
 penguin-app.py: The main application file that runs the Streamlit web interface.
 penguins_cleaned.csv: The dataset containing information about penguins, including their species, bill length, bill depth, flipper length, and body mass.
@@ -65,4 +69,5 @@ Pandas: For data manipulation.
 Pickle: For saving and loading the trained model.
 NumPy: For numerical computations.
 These dependencies are listed in the requirements.txt file.
+
 
