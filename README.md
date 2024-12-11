@@ -1,6 +1,10 @@
 Penguin Classification App
 This application classifies penguins based on various attributes such as size, weight, and species. The model was trained using the penguins_cleaned.csv dataset and deployed as a web app using Streamlit.
 
+
+Live Link->https://penguin-classification-web-app.streamlit.app/
+
+
 App Preview
 ![image](https://github.com/user-attachments/assets/f64cd2eb-d42d-4e38-ac4a-01bf0cada9cf)
 
